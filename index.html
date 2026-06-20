@@ -18,50 +18,91 @@
 
     <main class="container content">
         <section class="card">
-            <p class="last-update">Última actualización: 28 de febrero de 2026</p>
+            <p class="last-update">Última actualización: 20 de junio de 2026</p>
 
-            <p>Esta Política de Privacidad rige el uso de la aplicación móvil para Android <strong>UniCalendar</strong>, desarrollada por <strong>Josue Guedez</strong>.</p>
-            
+            <p>Esta Política de Privacidad rige el uso de la aplicación móvil para Android <strong>UniCalendar</strong>, desarrollada por <strong>Josue Guedez</strong>. Al utilizar esta aplicación, aceptas las prácticas descritas en este documento.</p>
+
             <h2>1. Información que Recopilamos y Almacenamiento</h2>
-            <p>UniCalendar prioriza tu privacidad ofreciendo un modelo de almacenamiento mixto, donde separamos estrictamente tu información académica privada de tu perfil social:</p>
-            
+            <p>UniCalendar maneja dos tipos de datos según su naturaleza y función:</p>
+
             <div class="highlight-box">
                 <ul>
-                    <li><strong>Datos Académicos (Almacenamiento Local):</strong> Toda la información relacionada con tus horarios, tareas, evaluaciones y materias se guarda <strong>exclusivamente en tu dispositivo</strong>. El desarrollador no tiene acceso a estos datos y no se suben a ningún servidor.</li>
-                    <li><strong>Datos de Perfil y Gamificación (Almacenamiento en la Nube):</strong> Si decides utilizar la sección "Comunidad" e iniciar sesión con tu cuenta de Google, recopilamos y almacenamos de forma segura en nuestros servidores: tu nombre de perfil público, un identificador único de usuario, tu racha de estudio y tus puntos de experiencia (XP) acumulados.</li>
+                    <li>
+                        <strong>Datos Académicos (Dispositivo + Respaldo Opcional en la Nube):</strong>
+                        Tu horario, materias, evaluaciones y actividades se almacenan localmente en tu dispositivo.
+                        Adicionalmente, la aplicación ofrece una función de <strong>respaldo en la nube</strong> que sincroniza
+                        estos datos en nuestros servidores (Firebase Cloud Firestore), vinculados exclusivamente a tu cuenta.
+                        Este respaldo se utiliza únicamente para restaurar tu información en caso de pérdida o cambio de dispositivo,
+                        y no es compartido con terceros ni utilizado con ningún otro fin.
+                    </li>
+                    <li>
+                        <strong>Datos de Perfil y Actividad Social (Almacenamiento en la Nube):</strong>
+                        Si utilizas la sección "Comunidad" e inicias sesión con tu cuenta de Google, recopilamos y
+                        almacenamos en nuestros servidores: tu nombre de perfil, un identificador único de usuario (UID),
+                        tu universidad, tu facultad, tu racha de estudio, tus puntos de experiencia (XP), los grupos a los
+                        que perteneces, y los centros de estudiantes y negocios universitarios que decides seguir.
+                    </li>
                 </ul>
             </div>
-            
+
             <h2>2. Funciones Sociales y Visibilidad Pública</h2>
-            <p>Al participar en las funciones sociales de la aplicación (Grupos de Estudio y Ranking Global), aceptas que cierta información de tu perfil sea visible para la comunidad:</p>
+            <p>Al participar en las funciones sociales de la aplicación (Grupos de Estudio, Ranking y Comunidad), aceptas que cierta información de tu perfil sea visible para otros usuarios:</p>
             <ul>
-                <li><strong>Ranking Global y Grupos:</strong> Tu nombre de perfil (obtenido de Google), tu racha actual de días de estudio y tu cantidad de XP serán visibles públicamente en la tabla de clasificación mundial ("Top Global") y para los miembros de los grupos a los que te unas.</li>
-                <li><strong>Privacidad del Correo:</strong> No compartimos tu dirección de correo electrónico exacta de forma pública con otros usuarios de la plataforma en ningún momento.</li>
+                <li><strong>Ranking Global y por Institución:</strong> Tu nombre de perfil, racha de estudio y cantidad de XP serán visibles en la tabla de clasificación global y para los miembros de los grupos a los que te unas.</li>
+                <li><strong>Anuncios Publicados:</strong> Si tienes un rol de administrador (centro de estudiantes o negocio verificado), los anuncios que publiques estarán visibles para los usuarios de tu universidad o facultad, incluyendo tu nombre como publicador.</li>
+                <li><strong>Privacidad del Correo:</strong> Tu dirección de correo electrónico nunca es compartida públicamente con otros usuarios de la plataforma.</li>
             </ul>
-            
+
             <h2>3. Servicios de Terceros</h2>
-            <p>Para garantizar el funcionamiento, seguridad y sostenibilidad de la aplicación, utilizamos los siguientes servicios provistos por Google:</p>
-            
-            <h3>3.1 Autenticación y Base de Datos (Firebase)</h3>
-            <p>Utilizamos Firebase Authentication para gestionar tu inicio de sesión seguro y Cloud Firestore para guardar tus puntos de experiencia (XP) y sincronizar el ranking global en tiempo real.</p>
-            
-            <h3>3.2 Google Analytics for Firebase</h3>
-            <p>Analizamos datos de uso agregados (tiempo de uso, cierres inesperados y modelo de dispositivo) para identificar errores y optimizar la interfaz. Estos datos son estadísticos y anónimos.</p>
-            
-            <h3>3.3 Publicidad (Google AdMob)</h3>
-            <p>La Aplicación muestra anuncios. Google utiliza cookies para mostrar publicidad basada en intereses. Puedes gestionar tus preferencias en la Configuración de Anuncios de Google.</p>
-            
-            <h2>4. Control y Eliminación de Datos</h2>
-            <p>Tienes control total sobre tu participación. Puedes dejar de compartir tus datos en cualquier momento cerrando sesión en la pestaña de Comunidad. Al desinstalar la aplicación, todos tus datos académicos locales serán eliminados permanentemente de tu dispositivo. Si deseas la eliminación completa de tus registros de XP en nuestros servidores, puedes solicitarlo a través de nuestro correo de contacto.</p>
-            
-            <h2>5. Seguridad</h2>
-            <p>Nos comprometemos a seguir las mejores prácticas de desarrollo. Los datos en la nube están protegidos por reglas de seguridad robustas que garantizan que solo tú (desde tu cuenta autenticada) puedas sumar puntos a tu perfil, evitando modificaciones no autorizadas.</p>
-            
-            <h2>6. Cambios en esta Política</h2>
-            <p>Podemos actualizar esta política ocasionalmente. Cualquier cambio será efectivo inmediatamente después de su publicación en esta página o dentro de la aplicación.</p>
-            
-            <h2>7. Contacto</h2>
-            <p>Si tienes dudas sobre cómo se manejan tus datos, puedes contactarme en:</p>
+            <p>Para garantizar el funcionamiento de la aplicación, utilizamos los siguientes servicios de terceros. Cada proveedor tiene sus propias políticas de privacidad sobre cómo manejan los datos:</p>
+
+            <h3>3.1 Firebase (Google)</h3>
+            <p>Utilizamos varios servicios de Firebase:</p>
+            <ul>
+                <li><strong>Firebase Authentication:</strong> Gestiona tu inicio de sesión seguro con tu cuenta de Google.</li>
+                <li><strong>Cloud Firestore:</strong> Almacena tu perfil social, progreso de gamificación, grupos, respaldos académicos y contenido de la comunidad.</li>
+                <li><strong>Firebase Analytics:</strong> Recopila datos de uso agregados y anónimos (tiempo de sesión, errores, modelo de dispositivo) para mejorar la aplicación.</li>
+                <li><strong>Firebase Cloud Messaging (FCM):</strong> Gestiona el envío de notificaciones push. Al instalar la app, se genera un token de dispositivo que se registra en los servidores de Firebase para este fin.</li>
+            </ul>
+            <p>Puedes consultar la política de privacidad de Google en: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+
+            <h3>3.2 Cloudinary</h3>
+            <p>Las imágenes publicadas en la sección <strong>Vitrina Universitaria</strong> (fotos de negocios y anuncios) son almacenadas en los servidores de Cloudinary. Únicamente los usuarios con rol de negocio verificado pueden subir imágenes. Puedes consultar su política de privacidad en: <a href="https://cloudinary.com/privacy" target="_blank" rel="noopener">cloudinary.com/privacy</a></p>
+
+            <h3>3.3 Google Gemini AI</h3>
+            <p>El <strong>Tutor IA</strong> procesa tus preguntas enviándolas a la API de Google Gemini. Las consultas son procesadas en los servidores de Google y no son almacenadas en nuestros servidores. Google puede procesarlas según sus propias políticas de uso de datos.</p>
+
+            <h2>4. Permisos del Dispositivo</h2>
+            <p>La aplicación solicita los siguientes permisos del sistema y los utiliza exclusivamente para los fines indicados:</p>
+
+            <div class="highlight-box">
+                <ul>
+                    <li><strong>Notificaciones:</strong> Para enviarte recordatorios de clases, entregas y novedades de los centros de estudiantes y negocios que sigues. Puedes desactivarlas desde la configuración de la aplicación.</li>
+                    <li><strong>Cámara:</strong> Para escanear códigos QR y compartir tu horario, materias o pensum con otros estudiantes. No se capturan ni almacenan fotografías.</li>
+                    <li><strong>Micrófono:</strong> Declarado para soporte de funciones de entrada de voz. En la versión actual, el Tutor IA funciona mediante texto escrito.</li>
+                    <li><strong>Alarmas exactas y arranque del sistema:</strong> Para garantizar que los recordatorios de clases y entregas se activen a la hora precisa configurada por ti, incluso tras reiniciar el dispositivo.</li>
+                </ul>
+            </div>
+
+            <h2>5. Control y Eliminación de Datos</h2>
+            <p>Tienes control total sobre tu información:</p>
+            <ul>
+                <li><strong>Cerrar sesión:</strong> Puedes dejar de participar en las funciones sociales en cualquier momento cerrando sesión desde la pestaña de Comunidad o Perfil.</li>
+                <li><strong>Desinstalar la app:</strong> Al desinstalar UniCalendar, todos tus datos académicos almacenados localmente serán eliminados permanentemente de tu dispositivo.</li>
+                <li><strong>Eliminación completa de datos en la nube:</strong> Si deseas que eliminemos todos tus datos de nuestros servidores (perfil, respaldos académicos, historial de XP y grupos), puedes solicitarlo escribiéndonos al correo de contacto indicado más abajo. Procesaremos tu solicitud en un plazo máximo de <strong>30 días hábiles</strong>.</li>
+            </ul>
+
+            <h2>6. Seguridad</h2>
+            <p>Nos comprometemos a seguir las mejores prácticas de desarrollo seguro. Los datos almacenados en la nube están protegidos por reglas de seguridad de Firebase que garantizan que únicamente tú, desde tu cuenta autenticada, puedas acceder o modificar tu información personal. Toda la comunicación entre la aplicación y los servidores utiliza cifrado en tránsito (HTTPS/TLS).</p>
+
+            <h2>7. Edad Mínima</h2>
+            <p>UniCalendar está dirigida a estudiantes universitarios. No está destinada a ser utilizada por menores de 13 años. Si eres padre o tutor y crees que tu hijo menor ha proporcionado información personal a través de esta aplicación, contáctanos para que podamos eliminar dicha información.</p>
+
+            <h2>8. Cambios en esta Política</h2>
+            <p>Podemos actualizar esta política ocasionalmente para reflejar mejoras en la aplicación o cambios en los servicios que utilizamos. Cualquier cambio será efectivo inmediatamente después de su publicación en esta página. Te recomendamos revisarla periódicamente.</p>
+
+            <h2>9. Contacto</h2>
+            <p>Si tienes dudas sobre cómo se manejan tus datos, deseas ejercer tu derecho de eliminación, o tienes cualquier consulta relacionada con tu privacidad, puedes contactarme en:</p>
             <p class="contact-mail">📧 <strong>josguedez15@gmail.com</strong></p>
         </section>
     </main>
